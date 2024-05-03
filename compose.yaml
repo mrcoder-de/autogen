@@ -1,0 +1,7 @@
+services:
+  autogen-studio:
+    image: autogen-studio:latest
+    volumes:
+      - ./work:/home/app/work
+    ports:
+      - "8080:8080"
